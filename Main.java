@@ -1,9 +1,10 @@
 import BasicInfo.*;
 import Classes.*;
+import FileHandling.*;
 
 public class Main {
   public static void main(String[] args) {
-    RunExample(11);
+    RunExample(12);
   }
 
   private static void RunExample(int exampleNumber)
@@ -44,6 +45,9 @@ public class Main {
         break;
       case 11:
         new Lambdas();
+        break;
+      case 12:
+        new Files();
         break;
     }
   }

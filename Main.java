@@ -5,6 +5,14 @@ public class Main {
     typeCasting();
     mathClass();
     ternaryOperator();
+    forEachLoops();
+  }
+
+  private static void forEachLoops() {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    for (String i : cars) {
+      System.out.println(i);
+      }
   }
 
   private static void ternaryOperator() {

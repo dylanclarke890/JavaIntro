@@ -2,8 +2,8 @@ public class Main {
   public static void main(String[] args) {
     new Intro();
     EncapExample();
-    Importing.ImportingExample();
     NestedClassesExample();
+    Importing.ImportingExample();
   }
 
   private static void EncapExample() {

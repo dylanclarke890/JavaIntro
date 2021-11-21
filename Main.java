@@ -1,14 +1,40 @@
 public class Main {
   public static void main(String[] args) {
-    new Intro();
-    EncapExample();
-    NestedClassesExample();
-    //Importing.ImportingExample();
-    new Dates();
-    new ArrayLists();
-    new LinkedLists();
-    new HashMaps();
-    new Iterators();
+    RunExample(8);
+  }
+
+  private static void RunExample(int exampleNumber)
+  {
+    switch (exampleNumber){
+      case 0:
+        new Intro();
+        break;
+      case 1:
+        EncapExample();
+        break;
+      case 2:
+        NestedClassesExample();
+        break;
+      case 3:
+        Importing.ImportingExample();
+        break;
+      case 4:
+        new Dates();
+        break;
+      case 5:
+        new ArrayLists();
+        break;
+      case 6:
+        new LinkedLists();
+        break;
+      case 7:
+        new HashMaps();
+        break;
+      case 8:
+        new Iterators();
+        break;
+    }
+
   }
 
   private static void EncapExample() {

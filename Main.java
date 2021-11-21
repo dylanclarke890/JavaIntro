@@ -6,6 +6,7 @@ public class Main {
     //Importing.ImportingExample();
     new Dates();
     new ArrayLists();
+    new LinkedLists();
   }
 
   private static void EncapExample() {

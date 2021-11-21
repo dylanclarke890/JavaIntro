@@ -4,6 +4,14 @@ public class Main {
     primitiveDataTypes();
     typeCasting();
     mathClass();
+    ternaryOperator();
+  }
+
+  private static void ternaryOperator() {
+    // wrapped in parentheses compared to c#
+    int someNumber = 3;
+    String isTrue = (4 > someNumber) ? "Yes" : "No";
+    System.out.println(isTrue);
   }
 
   private static void mathClass() {

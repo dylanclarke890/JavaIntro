@@ -3,6 +3,20 @@ public class Main {
     finalModifier();
     primitiveDataTypes();
     typeCasting();
+    mathClass();
+  }
+
+  private static void mathClass() {
+    Math.max(5, 10);
+    Math.min(4, 2);
+    Math.sqrt(9);
+    Math.abs(-4.7);
+    randomMethodExtensionExample();
+  }
+
+  private static void randomMethodExtensionExample() {
+    int randomNum = (int)(Math.random() * 101);  // 0 to 100
+    System.out.println(randomNum);
   }
 
   private static void typeCasting() {

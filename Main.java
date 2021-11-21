@@ -2,6 +2,7 @@ public class Main {
   public static void main(String[] args) {
     new Intro();
     EncapExample();
+    Importing.ImportingExample();
   }
 
   private static void EncapExample() {
@@ -10,5 +11,5 @@ public class Main {
     encap.setName("Hello");
     System.out.println(encap.getName());
   }
-  
+
 }

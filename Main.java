@@ -1,21 +1,57 @@
 public class Main {
   public static void main(String[] args) {
-    // non-primitive data type
-    String tutString = "Hello World";
+    finalModifier();
+    primitiveDataTypes();
+  }
 
-    // examples of primitive data types
-    char tutChar = 'a';
-    int tutInt = 1;
-
+  private static void finalModifier() {
     // readonly modifier
     final float tutFloat = 1.0f;
     final boolean tutBool = false;
-
-
-    System.out.println(tutString);
-    System.out.println(tutChar);
-    System.out.println(tutInt);
     System.out.println(tutFloat);
     System.out.println(tutBool);
+  }
+
+  private static void primitiveDataTypes() {
+    // examples of primitive data types
+    char tutChar = 'a';
+    int tutInt = 1;
+    System.out.println(tutChar);
+    System.out.println(tutInt);
+    
+    // non-primitive data type
+    String tutString = "Hello World";
+    System.out.println(tutString);
+
+    asciiChars();
+    byteRange();
+    shortRange();
+
+    long tutLong = 15000000000L;
+    System.out.println(tutLong);
+
+    scientificNumbers();
+  }
+
+  private static void byteRange() {
+    byte tutSmallestByte = -127;
+    byte tutLargestByte = 127;
+    System.out.println(tutSmallestByte + tutLargestByte);
+  }
+
+  private static void shortRange() {
+    short tutSmallestShort = -32768;
+    short tutLargestShort = 32767;
+    System.out.println(tutSmallestShort + tutLargestShort);
+  }
+
+  private static void scientificNumbers() {
+    float scientificNumber = 2e4f;
+    System.out.println(scientificNumber);
+  }
+
+  private static void asciiChars() {
+    char asciiChar = 43;
+    System.out.println(asciiChar);
   }
 }

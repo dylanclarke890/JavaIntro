@@ -7,6 +7,7 @@ public class Main {
     new Dates();
     new ArrayLists();
     new LinkedLists();
+    new HashMaps();
   }
 
   private static void EncapExample() {

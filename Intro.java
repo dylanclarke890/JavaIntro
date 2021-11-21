@@ -9,7 +9,7 @@ public class Intro {
     blockScope();
   }
 
-  private static void finalModifier() {
+  private void finalModifier() {
     // readonly modifier
     final float tutFloat = 1.0f;
     final boolean tutBool = false;
@@ -17,7 +17,7 @@ public class Intro {
     System.out.println(tutBool);
   }
 
-  private static void primitiveDataTypes() {
+  private void primitiveDataTypes() {
     // examples of primitive data types
     char tutChar = 'a';
     int tutInt = 1;
@@ -38,7 +38,7 @@ public class Intro {
     scientificNumbers();
   }
 
-  private static void blockScope() {
+  private void blockScope() {
     // Code here CANNOT use x
 
     { // This is a block
@@ -56,21 +56,21 @@ public class Intro {
 
   }
 
-  private static void forEachLoops() {
+  private void forEachLoops() {
     String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
     for (String i : cars) {
       System.out.println(i);
     }
   }
 
-  private static void ternaryOperator() {
+  private void ternaryOperator() {
     // wrapped in parentheses compared to c#
     int someNumber = 3;
     String isTrue = (4 > someNumber) ? "Yes" : "No";
     System.out.println(isTrue);
   }
 
-  private static void mathClass() {
+  private void mathClass() {
     // usage examples
     Math.max(5, 10);
     Math.min(4, 2);
@@ -79,12 +79,12 @@ public class Intro {
     randomMethodExtensionExample();
   }
 
-  private static void randomMethodExtensionExample() {
+  private void randomMethodExtensionExample() {
     int randomNum = (int)(Math.random() * 101);  // 0 to 100
     System.out.println(randomNum);
   }
 
-  private static void typeCasting() {
+  private void typeCasting() {
     /* widening casting - can be done if converted 
       datatype is a bigger size type */
     int smallerType = 9;
@@ -97,24 +97,24 @@ public class Intro {
     System.out.println(castedDouble);
   }
 
-  private static void asciiChars() {
+  private void asciiChars() {
     char asciiChar = 43;
     System.out.println(asciiChar);
   }
 
-  private static void byteRange() {
+  private void byteRange() {
     byte tutSmallestByte = -127;
     byte tutLargestByte = 127;
     System.out.println(tutSmallestByte + tutLargestByte);
   }
 
-  private static void shortRange() {
+  private void shortRange() {
     short tutSmallestShort = -32768;
     short tutLargestShort = 32767;
     System.out.println(tutSmallestShort + tutLargestShort);
   }
 
-  private static void scientificNumbers() {
+  private void scientificNumbers() {
     float scientificNumber = 2e4f;
     System.out.println(scientificNumber);
   }

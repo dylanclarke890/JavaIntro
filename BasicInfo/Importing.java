@@ -1,3 +1,4 @@
+package BasicInfo;
 import java.util.Scanner;
 
 public class Importing {

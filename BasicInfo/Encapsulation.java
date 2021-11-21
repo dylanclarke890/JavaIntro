@@ -1,3 +1,4 @@
+package BasicInfo;
 public class Encapsulation extends AbstractExample {
   
   private String name;

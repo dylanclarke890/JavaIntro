@@ -1,7 +1,6 @@
 package Classes;
 import java.util.ArrayList;
 import java.util.Iterator;
-
 /* 
   Java can get objects used for iterating over a collection.
   Iterators are useful as they are able to manipulate the data of a collection

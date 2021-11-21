@@ -8,6 +8,7 @@ public class Main {
     new ArrayLists();
     new LinkedLists();
     new HashMaps();
+    new Iterators();
   }
 
   private static void EncapExample() {

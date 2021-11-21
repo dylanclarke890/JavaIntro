@@ -1,6 +1,6 @@
 public class Main {
   public static void main(String[] args) {
-    RunExample(10);
+    RunExample(11);
   }
 
   private static void RunExample(int exampleNumber)
@@ -39,8 +39,10 @@ public class Main {
       case 10:
         new Threads();
         break;
+      case 11:
+        new Lambdas();
+        break;
     }
-
   }
 
   private static void EncapExample() {
@@ -53,5 +55,4 @@ public class Main {
   private static void NestedClassesExample() {
     System.out.println(NestedClasses.x + NestedClasses.InnerClass.y);
   }
-
 }

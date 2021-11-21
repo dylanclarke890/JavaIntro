@@ -3,6 +3,7 @@ public class Main {
     new Intro();
     EncapExample();
     Importing.ImportingExample();
+    NestedClassesExample();
   }
 
   private static void EncapExample() {
@@ -10,6 +11,10 @@ public class Main {
     encap.MethodExample();
     encap.setName("Hello");
     System.out.println(encap.getName());
+  }
+
+  private static void NestedClassesExample() {
+    System.out.println(NestedClasses.x + NestedClasses.InnerClass.y);
   }
 
 }

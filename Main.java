@@ -1,6 +1,6 @@
 public class Main {
   public static void main(String[] args) {
-    RunExample(8);
+    RunExample(9);
   }
 
   private static void RunExample(int exampleNumber)
@@ -32,6 +32,9 @@ public class Main {
         break;
       case 8:
         new Iterators();
+        break;
+      case 9:
+        new Regex();
         break;
     }
 

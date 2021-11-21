@@ -2,8 +2,11 @@ package BasicInfo;
 import java.util.Scanner;
 
 public class Importing {
+  public Importing() {
+    BasicExample();
+  }
 
-  public static void ImportingExample() {
+  public void BasicExample() {
     Scanner userInput = new Scanner(System.in);
 
     // Must close any I/O operations as usual

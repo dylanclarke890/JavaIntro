@@ -1,14 +1,21 @@
 package BasicInfo;
 public class Encapsulation extends AbstractExample {
-  
-  private String name;
+  public Encapsulation() {
+    BasicExample();
+  }
 
+  private String name;
   public String getName(){
     return this.name;
   }
-
   public void setName(String newName){ 
     this.name = newName;
+  }
+  
+  private void BasicExample() {
+    MethodExample();
+    setName("Hello");
+    System.out.println(getName());
   }
 
   public void MethodExample() {
@@ -17,6 +24,5 @@ public class Encapsulation extends AbstractExample {
 }
 
 abstract class AbstractExample {
-
   abstract void MethodExample();
 }

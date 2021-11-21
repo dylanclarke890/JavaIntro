@@ -14,13 +14,13 @@ public class Main {
         new Intro();
         break;
       case 1:
-        EncapExample();
+        new Encapsulation();
         break;
       case 2:
-        NestedClassesExample();
+        new NestedClasses();
         break;
       case 3:
-        Importing.ImportingExample();
+        new Importing();
         break;
       case 4:
         new Dates();
@@ -50,16 +50,5 @@ public class Main {
         new Files();
         break;
     }
-  }
-
-  private static void EncapExample() {
-    var encap = new Encapsulation();
-    encap.MethodExample();
-    encap.setName("Hello");
-    System.out.println(encap.getName());
-  }
-
-  private static void NestedClassesExample() {
-    System.out.println(NestedClasses.x + NestedClasses.InnerClass.y);
   }
 }

@@ -1,8 +1,16 @@
 package Classes;
 public class NestedClasses {
-  public static int x = 10;
+  public NestedClasses() {
+    new InnerClass();
+  }
 
-  public class InnerClass {
-    public static int y = 5;
+  int x = 10;
+
+  class InnerClass {
+    public InnerClass() {
+      System.out.println(x + y);
+    }
+    
+    int y = 5;
   }
 }

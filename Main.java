@@ -2,6 +2,20 @@ public class Main {
   public static void main(String[] args) {
     finalModifier();
     primitiveDataTypes();
+    typeCasting();
+  }
+
+  private static void typeCasting() {
+    /* widening casting - can be done if converted 
+      datatype is a bigger size type */
+    int smallerType = 9;
+    double castedInt = smallerType; // Automatic
+    System.out.println(castedInt);
+
+    /* narrowing casting must be done otherwise*/
+    double biggerType = 9.0;
+    int castedDouble = (int) biggerType;
+    System.out.println(castedDouble);
   }
 
   private static void finalModifier() {

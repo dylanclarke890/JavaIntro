@@ -7,6 +7,7 @@ public class Main {
   }
 
   private static void mathClass() {
+    // usage examples
     Math.max(5, 10);
     Math.min(4, 2);
     Math.sqrt(9);

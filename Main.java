@@ -1,6 +1,9 @@
 public class Main {
   public static void main(String[] args) {
+    // non-primitive data type
     String tutString = "Hello World";
+
+    // examples of primitive data types
     char tutChar = 'a';
     int tutInt = 1;
 

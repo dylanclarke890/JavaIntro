@@ -5,6 +5,7 @@ public class Main {
     NestedClassesExample();
     //Importing.ImportingExample();
     new Dates();
+    new ArrayLists();
   }
 
   private static void EncapExample() {

@@ -6,6 +6,27 @@ public class Main {
     mathClass();
     ternaryOperator();
     forEachLoops();
+
+    blockScope();
+  }
+
+  private static void blockScope() {
+        // Code here CANNOT use x
+
+        { // This is a block
+
+          // Code here CANNOT use x
+    
+          int x = 100;
+    
+          // Code here CAN use x
+          System.out.println(x);
+    
+       } // end of block
+    
+      // x is undefined again
+    
+      }
   }
 
   private static void forEachLoops() {
